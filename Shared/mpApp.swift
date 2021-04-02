@@ -11,7 +11,9 @@ import SwiftUI
 struct mpApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                Feed(recipes: Recipe.data)
+            }
         }
     }
 }

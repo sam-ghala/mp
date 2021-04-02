@@ -15,6 +15,16 @@
 		93C2E53E26156AD8007CA335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E51326156AD6007CA335 /* ContentView.swift */; };
 		93C2E53F26156AD8007CA335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C2E51426156AD8007CA335 /* Assets.xcassets */; };
 		93C2E54026156AD8007CA335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C2E51426156AD8007CA335 /* Assets.xcassets */; };
+		93F338EF261573BC0031E58B /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F338EE261573BC0031E58B /* FeedView.swift */; };
+		93F338F0261573BC0031E58B /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F338EE261573BC0031E58B /* FeedView.swift */; };
+		93F338FA2615795B0031E58B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F338F92615795B0031E58B /* CardView.swift */; };
+		93F338FB2615795B0031E58B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F338F92615795B0031E58B /* CardView.swift */; };
+		93F3391F26162F800031E58B /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F3391E26162F800031E58B /* RecipeView.swift */; };
+		93F3392026162F800031E58B /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F3391E26162F800031E58B /* RecipeView.swift */; };
+		93F3392F261640440031E58B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F3392E261640440031E58B /* DetailView.swift */; };
+		93F33930261640440031E58B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F3392E261640440031E58B /* DetailView.swift */; };
+		93F33936261660D00031E58B /* imageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F33935261660D00031E58B /* imageTestView.swift */; };
+		93F33937261660D00031E58B /* imageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F33935261660D00031E58B /* imageTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,11 @@
 		93C2E53426156AD8007CA335 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C2E53826156AD8007CA335 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		93C2E53A26156AD8007CA335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F338EE261573BC0031E58B /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		93F338F92615795B0031E58B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		93F3391E26162F800031E58B /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		93F3392E261640440031E58B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		93F33935261660D00031E58B /* imageTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +115,11 @@
 			children = (
 				93C2E51226156AD6007CA335 /* mpApp.swift */,
 				93C2E51326156AD6007CA335 /* ContentView.swift */,
+				93F338EE261573BC0031E58B /* FeedView.swift */,
+				93F3392E261640440031E58B /* DetailView.swift */,
+				93F33935261660D00031E58B /* imageTestView.swift */,
+				93F338F92615795B0031E58B /* CardView.swift */,
+				93F3391E26162F800031E58B /* RecipeView.swift */,
 				93C2E51426156AD8007CA335 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -309,7 +329,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				93C2E53D26156AD8007CA335 /* ContentView.swift in Sources */,
+				93F33936261660D00031E58B /* imageTestView.swift in Sources */,
+				93F3392F261640440031E58B /* DetailView.swift in Sources */,
+				93F338EF261573BC0031E58B /* FeedView.swift in Sources */,
+				93F338FA2615795B0031E58B /* CardView.swift in Sources */,
 				93C2E53B26156AD8007CA335 /* mpApp.swift in Sources */,
+				93F3391F26162F800031E58B /* RecipeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +343,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				93C2E53E26156AD8007CA335 /* ContentView.swift in Sources */,
+				93F33937261660D00031E58B /* imageTestView.swift in Sources */,
+				93F33930261640440031E58B /* DetailView.swift in Sources */,
+				93F338F0261573BC0031E58B /* FeedView.swift in Sources */,
+				93F338FB2615795B0031E58B /* CardView.swift in Sources */,
 				93C2E53C26156AD8007CA335 /* mpApp.swift in Sources */,
+				93F3392026162F800031E58B /* RecipeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
